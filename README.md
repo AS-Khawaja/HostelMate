@@ -5,7 +5,7 @@
 HostelMate is a modern web application built to help students easily search for private hostels and paid guest (PG) facilities. With an intuitive UI and powerful backend, HostelMate makes discovering and booking accommodations hassle-free.
 
 ---
-
+https://github.com/user-attachments/assets/002453dd-ba57-4eed-834d-b6d2dcde8143
 ## ✨ Features
 
 ✅ Search hostels & PGs by location or university  
