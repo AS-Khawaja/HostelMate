@@ -31,6 +31,30 @@ HostelMate is a modern web application built to help students easily search for 
 - [SQLite](https://www.sqlite.org/index.html)
 
 ---
+---
+
+## 🤖 Chatbot Integration (Powered by Google Gemini)
+
+HostelMate features an AI-powered chatbot assistant that enhances user experience by:
+
+- Helping students navigate the platform
+- Answering questions about hostels and PG accommodations
+- Providing instant support using natural language processing
+
+This chatbot is powered by **Google Gemini API**.
+
+### 🧠 Setup Instructions
+
+To enable the chatbot, follow these steps:
+
+1. Go to **[Google AI Studio](https://makersuite.google.com/app)**
+2. Sign in with your Google account
+3. Create a new project and generate your **API key** for the Gemini model
+4. Open the `main.py` file in the backend directory
+5. Replace the existing placeholder API key with your own:
+
+   ```python
+   GEMINI_API_KEY = "your-new-api-key-here"
 
 ## ⚙️ Getting Started
 
