@@ -61,7 +61,7 @@ To enable the chatbot, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hostelmate.git
+git clone https://github.com/AS-Khawaja/hostelmate.git
 cd hostelmate
 
 ```
