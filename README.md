@@ -26,9 +26,9 @@ HostelMate is a modern web application built to help students easily search for 
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ### 🧠 Backend
-- [Python](https://www.python.org/)
-- [Flask](https://flask.palletsprojects.com/)
-- [SQLite](https://www.sqlite.org/index.html)
+- Node.js
+- Express.js
+- MongoDB
 
 ---
 
