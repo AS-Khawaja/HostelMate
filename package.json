@@ -1,0 +1,34 @@
+{
+  "name": "hostelmate",
+  "version": "1.0.0",
+  "description": "**Your trusted partner for finding student hostels & PG accommodations near universities!**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "cross-env NODE_ENV=production node backend/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AS-Khawaja/HostelMate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AS-Khawaja/HostelMate/issues"
+  },
+  "homepage": "https://github.com/AS-Khawaja/HostelMate#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
