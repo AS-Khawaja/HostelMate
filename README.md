@@ -43,7 +43,7 @@ cd hostelmate
 ```
 ## 📄 Environment Variables
 
-Before running the backend, **create a **``** file** in the `backend` directory with the following keys:
+Before running the backend, **create a **``** .env file** with the following keys:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
