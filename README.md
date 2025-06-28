@@ -41,19 +41,39 @@ git clone https://github.com/yourusername/hostelmate.git
 cd hostelmate
 
 ```
+## 📄 Environment Variables
 
-### 2. Run the Frontend
-```bash
-cd hostel-hub-finder
-npm install
-npm run dev
+Before running the backend, **create a **``** file** in the `backend` directory with the following keys:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
-### 3. Run the Backend
+✅ **Replace** `your_mongodb_connection_string` with your **MongoDB Atlas URI** or local connection string.\
+✅ **Set** `PORT` to your desired backend port (default is 5000).\
+✅ **Add** your **Gemini API Key** to enable AI-powered features.
+
+---
+
+## 🔑 Example `.env` file
+
+```
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/hostelmate?retryWrites=true&w=majority
+PORT=5000
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+---
+
+
+### 2. Run the Build
 ```bash
-cd backend
-python3 -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-pip install -r requirements.tx
-python main.py
+npm run build
+```
+
+### 3. Run the Project
+```bash
+npm run start
 ```
